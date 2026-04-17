@@ -1,4 +1,4 @@
-package com.example.myapplication.utils
+package com.example.safepass_rda1.utils
 
 // Valida la mayoría de edad
 fun Int.esMayorDeEdad(): Boolean {

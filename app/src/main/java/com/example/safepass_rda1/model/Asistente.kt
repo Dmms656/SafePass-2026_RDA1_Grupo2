@@ -1,4 +1,4 @@
-package com.example.myapplication.model
+package com.example.safepass_rda1.model
 
 // Modelo de datos del asistente al evento
 data class Asistente(

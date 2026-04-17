@@ -1,9 +1,9 @@
-package com.example.myapplication.logic
+package com.example.safepass_rda1.logic
 
-import com.example.myapplication.model.Asistente
-import com.example.myapplication.state.RegistroState
-import com.example.myapplication.utils.esMayorDeEdad
-import com.example.myapplication.utils.nombreFormateado
+import com.example.safepass_rda1.model.Asistente
+import com.example.safepass_rda1.state.RegistroState
+import com.example.safepass_rda1.utils.esMayorDeEdad
+import com.example.safepass_rda1.utils.nombreFormateado
 
 // Función de orden superior para comportamiento inyectable
 fun procesarAsistente(

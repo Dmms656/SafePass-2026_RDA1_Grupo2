@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.safepass_rda1
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,9 +9,9 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.myapplication.logic.registrarAsistente
-import com.example.myapplication.state.RegistroState
-import com.example.myapplication.ui.theme.MyApplicationTheme
+import com.example.safepass_rda1.logic.registrarAsistente
+import com.example.safepass_rda1.state.RegistroState
+import com.example.safepass_rda1.ui.theme.SafePassRDA1Theme
 
 // Punto de entrada principal con configuración Edge-to-Edge
 class MainActivity : ComponentActivity() {
@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MyApplicationTheme {
+            SafePassRDA1Theme {
                 RegistroScreen()
             }
         }
@@ -77,6 +77,7 @@ fun RegistroScreen() {
             ) {
                 Text("Registrar")
             }
+
 
             when (val estadoActual = estado) {
                 is RegistroState.Idle -> {

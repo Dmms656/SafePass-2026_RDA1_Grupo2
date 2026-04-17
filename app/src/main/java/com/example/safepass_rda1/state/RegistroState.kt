@@ -1,6 +1,6 @@
-package com.example.myapplication.state
+package com.example.safepass_rda1.state
 
-import com.example.myapplication.model.Asistente
+import com.example.safepass_rda1.model.Asistente
 
 // Controla los estados de la interfaz de usuario
 sealed class RegistroState {

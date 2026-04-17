@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.safepass_rda1
 
 import org.junit.Test
 
